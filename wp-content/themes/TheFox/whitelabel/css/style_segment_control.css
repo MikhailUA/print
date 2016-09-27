@@ -1,0 +1,85 @@
+    .segmented-control {
+            display: table;
+            padding: 0;
+            width: 70px;
+            margin-top: -2px;
+    }
+
+    .segmented-control__item {
+            display: table-cell;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+    }
+
+    .segmented-control__input {
+            position: absolute;
+            visibility: hidden;
+            line-height: 0px;
+    }
+
+    .input__label_line{
+        line-height: 0px;
+    }
+
+    .segmented-control__label {
+            display: block;
+            margin: 0 -1px -1px 0; /* -1px margin removes double-thickness borders between items */
+            padding: 1em .25em;
+
+            border: 1px solid #ddd;
+
+            font-size: 11px; 
+            font-weight: bold;
+            text-align: center;  
+
+            cursor: pointer;
+            height: 10px;
+            
+            color: #6c93b0;
+    }
+    
+    .segment-control-rightcorner{
+        border-bottom-right-radius: 2px;
+        border-top-right-radius: 2px;
+    }
+    
+    .segment-control-leftcorner{
+        border-bottom-left-radius: 2px;
+        border-top-left-radius: 2px;
+    }
+
+    .segmented-control__label:hover {
+            background: #fff;
+    }
+    .segmented-control__label:before {
+        visibility: hidden;
+        height: 0px;
+        margin-top: -30px;
+    }
+
+    .segmented-control__input:checked + .segmented-control__label {
+            background: #eee;
+            color: #174b7a; 
+    }
+    
+    .segment-main-div{
+        height: 45px;
+        color: #fff; 
+        width: 115px;
+        float: right; 
+    }
+    
+    .segment-left{
+        margin-top: 10px;
+    }
+    
+    .segment-p{
+        float: left; 
+        margin: 0; 
+        padding: 0;
+        margin-right: 5px;
+        margin-top: 2px;
+    }
+    
+    

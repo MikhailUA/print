@@ -1,0 +1,68 @@
+/* ------------------------------------------------------------------------- *
+ *  Big screen : 1920px Width
+/* ------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 1680px) and (max-width: 1920px) {
+
+}
+
+/* ------------------------------------------------------------------------- *
+ *  Laptop : 1366 Width
+/* ------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
+   .vide > .bgimage { height: 600px !important; }
+
+}
+
+/* ------------------------------------------------------------------------- *
+ *  Laptop : 1280px Width
+/* ------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1280px) {
+   html {overflow-x:hidden}
+   .vide > .bgimage { height: 500px !important; }
+   #slider.flexslider.bigger .flex-direction-nav { display: none }
+
+}
+
+@media only screen and (max-width: 1280px) {
+   #account div#needhelp-menu { top: -9px; left: -50px; right: -2px; }
+   #account > div.active > a#needhelp { position: relative; left: -50px;}
+}
+
+@media only screen and (max-width: 999px) {
+    .vide > div { background-size: cover !important; }
+}
+
+/* ------------------------------------------------------------------------- *
+ *  Tablet (Portrait) : 768px Width
+/* ------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+
+}
+
+/* ------------------------------------------------------------------------- *
+ *  Mobile (Common) : 480px & 320px Width
+/* ------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+
+}
+
+/* ------------------------------------------------------------------------- *
+ *  Mobile (Landscape) : 480px Width
+/* ------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/* ------------------------------------------------------------------------- *
+ *  Mobile (Portrait) : 320px Width
+/* ------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 479px) {
+
+}

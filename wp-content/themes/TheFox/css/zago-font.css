@@ -1,0 +1,3004 @@
+@font-face {
+    font-family: 'zago-font';
+    src:    url('fonts/zago-font.eot?9pdhug');
+    src:    url('fonts/zago-font.eot?9pdhug#iefix') format('embedded-opentype'),
+        url('fonts/zago-font.ttf?9pdhug') format('truetype'),
+        url('fonts/zago-font.woff?9pdhug') format('woff'),
+        url('fonts/zago-font.svg?9pdhug#zago-font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="zagofont-"], [class*=" zagofont-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'zago-font' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.zagofont-favorite:before {
+    content: "\e9d2";
+}
+.zagofont-multimedia-1:before {
+    content: "\e9d3";
+}
+.zagofont-multimedia-2:before {
+    content: "\e9d4";
+}
+.zagofont-multimedia-3:before {
+    content: "\e9d5";
+}
+.zagofont-multimedia:before {
+    content: "\e9d6";
+}
+.zagofont-note-4:before {
+    content: "\e9d8";
+}
+.zagofont-note-5:before {
+    content: "\e9db";
+}
+.zagofont-note-6:before {
+    content: "\e9df";
+}
+.zagofont-note-7:before {
+    content: "\e9e0";
+}
+.zagofont-note-8:before {
+    content: "\e9e1";
+}
+.zagofont-note-9:before {
+    content: "\e9e2";
+}
+.zagofont-note-10:before {
+    content: "\e9e3";
+}
+.zagofont-note-11:before {
+    content: "\e9e4";
+}
+.zagofont-note-12:before {
+    content: "\e9e5";
+}
+.zagofont-note-13:before {
+    content: "\e9e6";
+}
+.zagofont-note-14:before {
+    content: "\e9e7";
+}
+.zagofont-note-15:before {
+    content: "\e9e8";
+}
+.zagofont-note-16:before {
+    content: "\e9e9";
+}
+.zagofont-note-17:before {
+    content: "\e9ea";
+}
+.zagofont-note-18:before {
+    content: "\e9eb";
+}
+.zagofont-note-19:before {
+    content: "\e9ec";
+}
+.zagofont-arrow:before {
+    content: "\e906";
+}
+.zagofont-arrows-1:before {
+    content: "\e907";
+}
+.zagofont-arrows-2:before {
+    content: "\e908";
+}
+.zagofont-arrows-3:before {
+    content: "\e909";
+}
+.zagofont-arrows:before {
+    content: "\e90a";
+}
+.zagofont-buildings:before {
+    content: "\e90b";
+}
+.zagofont-business:before {
+    content: "\e90c";
+}
+.zagofont-circle-1:before {
+    content: "\e90f";
+}
+.zagofont-circle-2:before {
+    content: "\e910";
+}
+.zagofont-circle:before {
+    content: "\e911";
+}
+.zagofont-clock-1:before {
+    content: "\e912";
+}
+.zagofont-clock2:before {
+    content: "\e913";
+}
+.zagofont-coins-1:before {
+    content: "\e914";
+}
+.zagofont-coins:before {
+    content: "\e915";
+}
+.zagofont-commerce:before {
+    content: "\e916";
+}
+.zagofont-cross2:before {
+    content: "\e917";
+}
+.zagofont-delete-1:before {
+    content: "\e918";
+}
+.zagofont-delete-2:before {
+    content: "\e919";
+}
+.zagofont-delete:before {
+    content: "\e91a";
+}
+.zagofont-draw:before {
+    content: "\e91c";
+}
+.zagofont-gps-1:before {
+    content: "\e91d";
+}
+.zagofont-gps:before {
+    content: "\e91e";
+}
+.zagofont-home-1:before {
+    content: "\e91f";
+}
+.zagofont-home2:before {
+    content: "\e920";
+}
+.zagofont-interface-1:before {
+    content: "\e921";
+}
+.zagofont-interface-2:before {
+    content: "\e939";
+}
+.zagofont-interface-3:before {
+    content: "\e93a";
+}
+.zagofont-interface:before {
+    content: "\e940";
+}
+.zagofont-location-1:before {
+    content: "\e941";
+}
+.zagofont-location3:before {
+    content: "\e942";
+}
+.zagofont-other-1:before {
+    content: "\e943";
+}
+.zagofont-other:before {
+    content: "\e945";
+}
+.zagofont-pen:before {
+    content: "\e946";
+}
+.zagofont-round:before {
+    content: "\e94f";
+}
+.zagofont-search-1:before {
+    content: "\e950";
+}
+.zagofont-search:before {
+    content: "\e951";
+}
+.zagofont-setup:before {
+    content: "\e954";
+}
+.zagofont-sign:before {
+    content: "\e955";
+}
+.zagofont-size:before {
+    content: "\e956";
+}
+.zagofont-social-1:before {
+    content: "\e957";
+}
+.zagofont-social-2:before {
+    content: "\e95b";
+}
+.zagofont-social:before {
+    content: "\e95f";
+}
+.zagofont-square:before {
+    content: "\e960";
+}
+.zagofont-technology:before {
+    content: "\e961";
+}
+.zagofont-three:before {
+    content: "\e962";
+}
+.zagofont-tool-1:before {
+    content: "\e963";
+}
+.zagofont-tool-2:before {
+    content: "\e964";
+}
+.zagofont-tool:before {
+    content: "\e967";
+}
+.zagofont-web:before {
+    content: "\e968";
+}
+.zagofont-arrows2:before {
+    content: "\e969";
+}
+.zagofont-black:before {
+    content: "\e96a";
+}
+.zagofont-building:before {
+    content: "\e977";
+}
+.zagofont-business-1:before {
+    content: "\e978";
+}
+.zagofont-business-2:before {
+    content: "\e979";
+}
+.zagofont-business-3:before {
+    content: "\e97b";
+}
+.zagofont-business-4:before {
+    content: "\e97c";
+}
+.zagofont-business-5:before {
+    content: "\e97d";
+}
+.zagofont-business2:before {
+    content: "\e981";
+}
+.zagofont-calendar2:before {
+    content: "\e982";
+}
+.zagofont-check:before {
+    content: "\e983";
+}
+.zagofont-circle2:before {
+    content: "\e984";
+}
+.zagofont-clock3:before {
+    content: "\e985";
+}
+.zagofont-file:before {
+    content: "\e986";
+}
+.zagofont-interface-12:before {
+    content: "\e987";
+}
+.zagofont-interface-22:before {
+    content: "\e988";
+}
+.zagofont-interface-32:before {
+    content: "\e98d";
+}
+.zagofont-interface-4:before {
+    content: "\e98e";
+}
+.zagofont-interface-5:before {
+    content: "\e991";
+}
+.zagofont-interface-6:before {
+    content: "\e996";
+}
+.zagofont-interface-7:before {
+    content: "\e997";
+}
+.zagofont-interface-8:before {
+    content: "\e998";
+}
+.zagofont-interface2:before {
+    content: "\e999";
+}
+.zagofont-letter:before {
+    content: "\e99a";
+}
+.zagofont-note-1:before {
+    content: "\e99e";
+}
+.zagofont-note-2:before {
+    content: "\e99f";
+}
+.zagofont-note-3:before {
+    content: "\e9a0";
+}
+.zagofont-note:before {
+    content: "\e9a1";
+}
+.zagofont-notebook:before {
+    content: "\e9a2";
+}
+.zagofont-people-1:before {
+    content: "\e9a3";
+}
+.zagofont-people-2:before {
+    content: "\e9a4";
+}
+.zagofont-people:before {
+    content: "\e9a5";
+}
+.zagofont-person:before {
+    content: "\e9a6";
+}
+.zagofont-ribbon:before {
+    content: "\e9a7";
+}
+.zagofont-school:before {
+    content: "\e9a8";
+}
+.zagofont-share:before {
+    content: "\e9a9";
+}
+.zagofont-square2:before {
+    content: "\e9aa";
+}
+.zagofont-symbol:before {
+    content: "\e9ab";
+}
+.zagofont-symbols:before {
+    content: "\e9af";
+}
+.zagofont-technology-1:before {
+    content: "\e9b0";
+}
+.zagofont-technology-2:before {
+    content: "\e9b1";
+}
+.zagofont-technology-3:before {
+    content: "\e9b2";
+}
+.zagofont-technology-4:before {
+    content: "\e9b3";
+}
+.zagofont-technology-5:before {
+    content: "\e9b4";
+}
+.zagofont-technology2:before {
+    content: "\e9b5";
+}
+.zagofont-telephone-1:before {
+    content: "\e9b6";
+}
+.zagofont-telephone-2:before {
+    content: "\e9b7";
+}
+.zagofont-telephone:before {
+    content: "\e9c1";
+}
+.zagofont-two:before {
+    content: "\e9c2";
+}
+.zagofont-web2:before {
+    content: "\e9c3";
+}
+.zagofont-walk:before {
+    content: "\e900";
+}
+.zagofont-car189:before {
+    content: "\e901";
+}
+.zagofont-check34:before {
+    content: "\e902";
+}
+.zagofont-interior-design:before {
+    content: "\e903";
+}
+.zagofont-plan:before {
+    content: "\e904";
+}
+.zagofont-house253:before {
+    content: "\e905";
+}
+.zagofont-6:before {
+    content: "\e8d7";
+}
+.zagofont-1:before {
+    content: "\e818";
+}
+.zagofont-12:before {
+    content: "\e819";
+}
+.zagofont-4:before {
+    content: "\e81a";
+}
+.zagofont-alarm:before {
+    content: "\e81b";
+}
+.zagofont-apartment2:before {
+    content: "\e81c";
+}
+.zagofont-arrow-down-circle:before {
+    content: "\e81d";
+}
+.zagofont-arrow-down:before {
+    content: "\e81e";
+}
+.zagofont-arrow-left-circle:before {
+    content: "\e81f";
+}
+.zagofont-arrow-left:before {
+    content: "\e820";
+}
+.zagofont-arrow-right-circle:before {
+    content: "\e821";
+}
+.zagofont-arrow-right:before {
+    content: "\e822";
+}
+.zagofont-arrow-up-circle:before {
+    content: "\e823";
+}
+.zagofont-arrow-up:before {
+    content: "\e824";
+}
+.zagofont-bicycle:before {
+    content: "\e825";
+}
+.zagofont-bold:before {
+    content: "\e826";
+}
+.zagofont-book:before {
+    content: "\e827";
+}
+.zagofont-bookmark:before {
+    content: "\e828";
+}
+.zagofont-briefcase:before {
+    content: "\e829";
+}
+.zagofont-bubble:before {
+    content: "\e82a";
+}
+.zagofont-bullhorn:before {
+    content: "\e82c";
+}
+.zagofont-bus:before {
+    content: "\e82d";
+}
+.zagofont-calendar-full:before {
+    content: "\e82e";
+}
+.zagofont-camera-video:before {
+    content: "\e82f";
+}
+.zagofont-camera:before {
+    content: "\e830";
+}
+.zagofont-car:before {
+    content: "\e831";
+}
+.zagofont-cart:before {
+    content: "\e832";
+}
+.zagofont-chart-bars:before {
+    content: "\e833";
+}
+.zagofont-checkmark-circle:before {
+    content: "\e834";
+}
+.zagofont-chevron-down-circle:before {
+    content: "\e835";
+}
+.zagofont-chevron-down:before {
+    content: "\e836";
+}
+.zagofont-chevron-left-circle:before {
+    content: "\e837";
+}
+.zagofont-chevron-left:before {
+    content: "\e838";
+}
+.zagofont-chevron-right-circle:before {
+    content: "\e839";
+}
+.zagofont-chevron-right:before {
+    content: "\e83a";
+}
+.zagofont-chevron-up-circle:before {
+    content: "\e83b";
+}
+.zagofont-chevron-up:before {
+    content: "\e83c";
+}
+.zagofont-circle-minus:before {
+    content: "\e83d";
+}
+.zagofont-clock:before {
+    content: "\e83e";
+}
+.zagofont-cloud-check:before {
+    content: "\e83f";
+}
+.zagofont-cloud-download:before {
+    content: "\e840";
+}
+.zagofont-cloud-sync:before {
+    content: "\e841";
+}
+.zagofont-cloud-upload:before {
+    content: "\e842";
+}
+.zagofont-cloud:before {
+    content: "\e843";
+}
+.zagofont-code:before {
+    content: "\e844";
+}
+.zagofont-coffee-cup:before {
+    content: "\e845";
+}
+.zagofont-cog:before {
+    content: "\e846";
+}
+.zagofont-construction:before {
+    content: "\e847";
+}
+.zagofont-crop:before {
+    content: "\e848";
+}
+.zagofont-cross-circle:before {
+    content: "\e849";
+}
+.zagofont-cross:before {
+    content: "\e84a";
+}
+.zagofont-database:before {
+    content: "\e84b";
+}
+.zagofont-diamond:before {
+    content: "\e84c";
+}
+.zagofont-dice:before {
+    content: "\e84d";
+}
+.zagofont-dinner:before {
+    content: "\e84e";
+}
+.zagofont-direction-ltr:before {
+    content: "\e84f";
+}
+.zagofont-direction-rtl:before {
+    content: "\e850";
+}
+.zagofont-download:before {
+    content: "\e851";
+}
+.zagofont-drop:before {
+    content: "\e852";
+}
+.zagofont-earth2:before {
+    content: "\e853";
+}
+.zagofont-enter-down:before {
+    content: "\e854";
+}
+.zagofont-enter:before {
+    content: "\e855";
+}
+.zagofont-envelope:before {
+    content: "\e856";
+}
+.zagofont-exit-up:before {
+    content: "\e857";
+}
+.zagofont-exit:before {
+    content: "\e858";
+}
+.zagofont-eye:before {
+    content: "\e859";
+}
+.zagofont-file-add:before {
+    content: "\e85a";
+}
+.zagofont-file-empty:before {
+    content: "\e85b";
+}
+.zagofont-film-play:before {
+    content: "\e85c";
+}
+.zagofont-flag:before {
+    content: "\e85d";
+}
+.zagofont-frame-contract:before {
+    content: "\e85e";
+}
+.zagofont-frame-expand:before {
+    content: "\e85f";
+}
+.zagofont-funnel:before {
+    content: "\e860";
+}
+.zagofont-gift:before {
+    content: "\e861";
+}
+.zagofont-graduation-hat:before {
+    content: "\e862";
+}
+.zagofont-hand2:before {
+    content: "\e863";
+}
+.zagofont-heart-pulse:before {
+    content: "\e864";
+}
+.zagofont-heart2:before {
+    content: "\e865";
+}
+.zagofont-highlight:before {
+    content: "\e866";
+}
+.zagofont-history:before {
+    content: "\e867";
+}
+.zagofont-home:before {
+    content: "\e868";
+}
+.zagofont-hourglass:before {
+    content: "\e869";
+}
+.zagofont-inbox:before {
+    content: "\e86a";
+}
+.zagofont-indent-decrease:before {
+    content: "\e86b";
+}
+.zagofont-indent-increase:before {
+    content: "\e86c";
+}
+.zagofont-italic:before {
+    content: "\e86d";
+}
+.zagofont-keyboard:before {
+    content: "\e86e";
+}
+.zagofont-laptop-phone:before {
+    content: "\e86f";
+}
+.zagofont-laptop:before {
+    content: "\e870";
+}
+.zagofont-layers:before {
+    content: "\e871";
+}
+.zagofont-leaf:before {
+    content: "\e872";
+}
+.zagofont-license:before {
+    content: "\e873";
+}
+.zagofont-lighter:before {
+    content: "\e874";
+}
+.zagofont-line-spacing:before {
+    content: "\e875";
+}
+.zagofont-linearicons:before {
+    content: "\e876";
+}
+.zagofont-link:before {
+    content: "\e877";
+}
+.zagofont-list:before {
+    content: "\e878";
+}
+.zagofont-location:before {
+    content: "\e879";
+}
+.zagofont-lock:before {
+    content: "\e87a";
+}
+.zagofont-magic-wand:before {
+    content: "\e87b";
+}
+.zagofont-magnifier:before {
+    content: "\e87c";
+}
+.zagofont-map-marker:before {
+    content: "\e87d";
+}
+.zagofont-map:before {
+    content: "\e87e";
+}
+.zagofont-menu-circle:before {
+    content: "\e87f";
+}
+.zagofont-menu:before {
+    content: "\e880";
+}
+.zagofont-mic:before {
+    content: "\e881";
+}
+.zagofont-moon:before {
+    content: "\e882";
+}
+.zagofont-move:before {
+    content: "\e883";
+}
+.zagofont-music-note:before {
+    content: "\e884";
+}
+.zagofont-mustache:before {
+    content: "\e885";
+}
+.zagofont-neutral:before {
+    content: "\e886";
+}
+.zagofont-page-break:before {
+    content: "\e887";
+}
+.zagofont-paperclip:before {
+    content: "\e888";
+}
+.zagofont-paw:before {
+    content: "\e889";
+}
+.zagofont-pencil:before {
+    content: "\e88a";
+}
+.zagofont-phone-handset:before {
+    content: "\e88b";
+}
+.zagofont-phone:before {
+    content: "\e88c";
+}
+.zagofont-picture:before {
+    content: "\e88d";
+}
+.zagofont-pie-chart:before {
+    content: "\e88e";
+}
+.zagofont-pilcrow:before {
+    content: "\e88f";
+}
+.zagofont-plus-circle:before {
+    content: "\e890";
+}
+.zagofont-pointer-down:before {
+    content: "\e891";
+}
+.zagofont-pointer-left:before {
+    content: "\e892";
+}
+.zagofont-pointer-right:before {
+    content: "\e893";
+}
+.zagofont-pointer-up:before {
+    content: "\e894";
+}
+.zagofont-poop:before {
+    content: "\e895";
+}
+.zagofont-power-switch:before {
+    content: "\e896";
+}
+.zagofont-printer:before {
+    content: "\e897";
+}
+.zagofont-pushpin:before {
+    content: "\e898";
+}
+.zagofont-question-circle:before {
+    content: "\e899";
+}
+.zagofont-redo:before {
+    content: "\e89a";
+}
+.zagofont-rocket:before {
+    content: "\e89b";
+}
+.zagofont-sad:before {
+    content: "\e89c";
+}
+.zagofont-screen:before {
+    content: "\e89d";
+}
+.zagofont-select:before {
+    content: "\e89e";
+}
+.zagofont-shirt:before {
+    content: "\e89f";
+}
+.zagofont-smartphone:before {
+    content: "\e8a0";
+}
+.zagofont-smile:before {
+    content: "\e8a1";
+}
+.zagofont-sort-alpha-asc:before {
+    content: "\e8a2";
+}
+.zagofont-sort-amount-asc:before {
+    content: "\e8a3";
+}
+.zagofont-spell-check:before {
+    content: "\e8a4";
+}
+.zagofont-star-empty:before {
+    content: "\e8a5";
+}
+.zagofont-star-half:before {
+    content: "\e8a6";
+}
+.zagofont-star:before {
+    content: "\e8a7";
+}
+.zagofont-store:before {
+    content: "\e8a8";
+}
+.zagofont-strikethrough:before {
+    content: "\e8a9";
+}
+.zagofont-sun:before {
+    content: "\e8aa";
+}
+.zagofont-sync:before {
+    content: "\e8ab";
+}
+.zagofont-tablet:before {
+    content: "\e8ac";
+}
+.zagofont-tag:before {
+    content: "\e8ad";
+}
+.zagofont-text-align-center:before {
+    content: "\e8ae";
+}
+.zagofont-text-align-justify:before {
+    content: "\e8af";
+}
+.zagofont-text-align-left:before {
+    content: "\e8b0";
+}
+.zagofont-text-align-right:before {
+    content: "\e8b1";
+}
+.zagofont-text-format-remove:before {
+    content: "\e8b2";
+}
+.zagofont-text-format:before {
+    content: "\e8b3";
+}
+.zagofont-text-size:before {
+    content: "\e8b4";
+}
+.zagofont-thumbs-down:before {
+    content: "\e8b5";
+}
+.zagofont-thumbs-up:before {
+    content: "\e8b6";
+}
+.zagofont-train:before {
+    content: "\e8b7";
+}
+.zagofont-trash:before {
+    content: "\e8b8";
+}
+.zagofont-underline:before {
+    content: "\e8b9";
+}
+.zagofont-undo:before {
+    content: "\e8ba";
+}
+.zagofont-unlink:before {
+    content: "\e8bb";
+}
+.zagofont-upload:before {
+    content: "\e8bc";
+}
+.zagofont-user:before {
+    content: "\e8bd";
+}
+.zagofont-users:before {
+    content: "\e8be";
+}
+.zagofont-volume-high:before {
+    content: "\e8bf";
+}
+.zagofont-volume-low:before {
+    content: "\e8c0";
+}
+.zagofont-volume-medium:before {
+    content: "\e8c1";
+}
+.zagofont-volume:before {
+    content: "\e8c2";
+}
+.zagofont-warning:before {
+    content: "\e8c3";
+}
+.zagofont-wheelchair:before {
+    content: "\e8c4";
+}
+.zagofont-2:before {
+    content: "\e8c5";
+}
+.zagofont-3:before {
+    content: "\e8c6";
+}
+.zagofont-5:before {
+    content: "\e8c7";
+}
+.zagofont-Add_x40_2xpng:before {
+    content: "\e651";
+}
+.zagofont-Address_Book_x40_2xpng:before {
+    content: "\e652";
+}
+.zagofont-Admission_Ticket:before {
+    content: "\e653";
+}
+.zagofont-Admission_Tickets:before {
+    content: "\e654";
+}
+.zagofont-Airplay_Logo:before {
+    content: "\e655";
+}
+.zagofont-Android:before {
+    content: "\e656";
+}
+.zagofont-At_Symbol:before {
+    content: "\e657";
+}
+.zagofont-Atlas:before {
+    content: "\e658";
+}
+.zagofont-Atom:before {
+    content: "\e659";
+}
+.zagofont-Audio_0:before {
+    content: "\e65a";
+}
+.zagofont-Audio_1:before {
+    content: "\e65b";
+}
+.zagofont-Audio_2:before {
+    content: "\e65c";
+}
+.zagofont-Audio_3:before {
+    content: "\e65d";
+}
+.zagofont-Audio_Muted:before {
+    content: "\e65e";
+}
+.zagofont-Bandaid:before {
+    content: "\e65f";
+}
+.zagofont-Bar_Chart_x40_2xpng:before {
+    content: "\e660";
+}
+.zagofont-Barcode_Scan:before {
+    content: "\e661";
+}
+.zagofont-Barcode_Search:before {
+    content: "\e662";
+}
+.zagofont-Barcode:before {
+    content: "\e663";
+}
+.zagofont-Battery_1:before {
+    content: "\e664";
+}
+.zagofont-Battery_2:before {
+    content: "\e665";
+}
+.zagofont-Battery_3:before {
+    content: "\e666";
+}
+.zagofont-Battery_4:before {
+    content: "\e667";
+}
+.zagofont-Battery_5:before {
+    content: "\e668";
+}
+.zagofont-Battery_Charging:before {
+    content: "\e669";
+}
+.zagofont-Beaker_1:before {
+    content: "\e66a";
+}
+.zagofont-Beaker_2:before {
+    content: "\e66b";
+}
+.zagofont-Beaker_3:before {
+    content: "\e66c";
+}
+.zagofont-Bell_x40_2xpng:before {
+    content: "\e66d";
+}
+.zagofont-Billboard_1:before {
+    content: "\e66e";
+}
+.zagofont-Billboard_2:before {
+    content: "\e66f";
+}
+.zagofont-Binoculars:before {
+    content: "\e670";
+}
+.zagofont-Bitcoin_Coin:before {
+    content: "\e671";
+}
+.zagofont-Bitcoin_Coins:before {
+    content: "\e672";
+}
+.zagofont-Bluetooth:before {
+    content: "\e673";
+}
+.zagofont-Bone:before {
+    content: "\e674";
+}
+.zagofont-Book_x40_2xpng:before {
+    content: "\e675";
+}
+.zagofont-Bookmark_1:before {
+    content: "\e676";
+}
+.zagofont-Bookmark_2:before {
+    content: "\e677";
+}
+.zagofont-Bookshelf:before {
+    content: "\e678";
+}
+.zagofont-Boom_Box:before {
+    content: "\e679";
+}
+.zagofont-Bottle:before {
+    content: "\e67a";
+}
+.zagofont-Bow_Tie:before {
+    content: "\e67b";
+}
+.zagofont-Box_Download_x40_2xpng:before {
+    content: "\e67c";
+}
+.zagofont-Box_Upload_x40_2xpng:before {
+    content: "\e67d";
+}
+.zagofont-Box_with_More_x40_2xpng:before {
+    content: "\e67e";
+}
+.zagofont-Box_with_Papers_x40_2xpng:before {
+    content: "\e67f";
+}
+.zagofont-Box_with_Video_Files_x40_2xpng:before {
+    content: "\e680";
+}
+.zagofont-Box_x40_2xpng:before {
+    content: "\e681";
+}
+.zagofont-Briefcase_x40_2xpng:before {
+    content: "\e682";
+}
+.zagofont-Broken_Heart_1:before {
+    content: "\e683";
+}
+.zagofont-Broken_Heart_2:before {
+    content: "\e684";
+}
+.zagofont-Browser_with_Compass:before {
+    content: "\e685";
+}
+.zagofont-Browser:before {
+    content: "\e686";
+}
+.zagofont-Browsers:before {
+    content: "\e687";
+}
+.zagofont-Building_x40_2xpng:before {
+    content: "\e688";
+}
+.zagofont-Calculator:before {
+    content: "\e689";
+}
+.zagofont-Calendar_1_x40_2xpng:before {
+    content: "\e68a";
+}
+.zagofont-Calendar_2_x40_2xpng:before {
+    content: "\e68b";
+}
+.zagofont-Camera_with_Film_Strip:before {
+    content: "\e68c";
+}
+.zagofont-Camera_with_Polaroid:before {
+    content: "\e68d";
+}
+.zagofont-Camera_with_Wide_Angle:before {
+    content: "\e68e";
+}
+.zagofont-Camera:before {
+    content: "\e68f";
+}
+.zagofont-Cameras:before {
+    content: "\e690";
+}
+.zagofont-Cash_Register:before {
+    content: "\e691";
+}
+.zagofont-Celsius:before {
+    content: "\e692";
+}
+.zagofont-Chat_Bubble_Dots_x40_2xpng:before {
+    content: "\e693";
+}
+.zagofont-Chat_Bubble_x40_2xpng:before {
+    content: "\e694";
+}
+.zagofont-Chat_Bubbles_x40_2xpng:before {
+    content: "\e695";
+}
+.zagofont-Checkmark_1_x40_2xpng:before {
+    content: "\e696";
+}
+.zagofont-Checkmark_2_x40_2xpng:before {
+    content: "\e697";
+}
+.zagofont-Chromecast_Logo:before {
+    content: "\e698";
+}
+.zagofont-Circle_Outline_Down:before {
+    content: "\e699";
+}
+.zagofont-Circle_Outline_Up:before {
+    content: "\e69a";
+}
+.zagofont-Circle_Outline_with_Dot:before {
+    content: "\e69b";
+}
+.zagofont-Circle_Outline:before {
+    content: "\e69c";
+}
+.zagofont-Clipboard_x40_2xpng:before {
+    content: "\e69d";
+}
+.zagofont-Clock_1_x40_2xpng:before {
+    content: "\e69e";
+}
+.zagofont-Clock_2_x40_2xpng:before {
+    content: "\e69f";
+}
+.zagofont-Cloud_1:before {
+    content: "\e6a0";
+}
+.zagofont-Cloud_2:before {
+    content: "\e6a1";
+}
+.zagofont-Cloud_Download:before {
+    content: "\e6a2";
+}
+.zagofont-Cloud_Sync:before {
+    content: "\e6a3";
+}
+.zagofont-Cloud_Upload:before {
+    content: "\e6a4";
+}
+.zagofont-Cloud_with_Lightning:before {
+    content: "\e6a5";
+}
+.zagofont-Cloud_with_Rain_1:before {
+    content: "\e6a6";
+}
+.zagofont-Cloud_with_Rain_2:before {
+    content: "\e6a7";
+}
+.zagofont-Cloud_with_Rain_3:before {
+    content: "\e6a8";
+}
+.zagofont-Cloud_with_Rain_Lightning:before {
+    content: "\e6a9";
+}
+.zagofont-Cloud_with_Snow:before {
+    content: "\e6aa";
+}
+.zagofont-Cloud_with_Sun:before {
+    content: "\e6ab";
+}
+.zagofont-Command_Line:before {
+    content: "\e6ac";
+}
+.zagofont-Compass:before {
+    content: "\e6ad";
+}
+.zagofont-Contact_Card_1_x40_2xpng:before {
+    content: "\e6ae";
+}
+.zagofont-Contact_Card_2_x40_2xpng:before {
+    content: "\e6af";
+}
+.zagofont-Contact_Cards_1_x40_2xpng:before {
+    content: "\e6b0";
+}
+.zagofont-Contact_Cards_2_x40_2xpng:before {
+    content: "\e6b1";
+}
+.zagofont-Credit_Card:before {
+    content: "\e6b2";
+}
+.zagofont-Credit_Cards:before {
+    content: "\e6b3";
+}
+.zagofont-Crossbones:before {
+    content: "\e6b4";
+}
+.zagofont-Curved_Arrow_Down:before {
+    content: "\e6b5";
+}
+.zagofont-Curved_Arrow_Left:before {
+    content: "\e6b6";
+}
+.zagofont-Curved_Arrow_Right:before {
+    content: "\e6b7";
+}
+.zagofont-Curved_Arrow_Up:before {
+    content: "\e6b8";
+}
+.zagofont-Desk:before {
+    content: "\e6b9";
+}
+.zagofont-Desktop_Download:before {
+    content: "\e6ba";
+}
+.zagofont-Desktop_Left:before {
+    content: "\e6bb";
+}
+.zagofont-Desktop_Right:before {
+    content: "\e6bc";
+}
+.zagofont-Desktop_Sync:before {
+    content: "\e6bd";
+}
+.zagofont-Desktop_Upload:before {
+    content: "\e6be";
+}
+.zagofont-Desktop:before {
+    content: "\e6bf";
+}
+.zagofont-Diamond_x40_2xpng:before {
+    content: "\e6c0";
+}
+.zagofont-DLNA_Logo:before {
+    content: "\e6c1";
+}
+.zagofont-Dollar_Coin:before {
+    content: "\e6c2";
+}
+.zagofont-Dollar_Coins:before {
+    content: "\e6c3";
+}
+.zagofont-Down_Arrow_1:before {
+    content: "\e6c4";
+}
+.zagofont-Down_Arrow_2:before {
+    content: "\e6c5";
+}
+.zagofont-Down_Arrow_3:before {
+    content: "\e6c6";
+}
+.zagofont-Down_Arrow_4:before {
+    content: "\e6c7";
+}
+.zagofont-Down_Arrow_5:before {
+    content: "\e6c8";
+}
+.zagofont-Down_Arrow_6:before {
+    content: "\e6c9";
+}
+.zagofont-Download_1:before {
+    content: "\e6ca";
+}
+.zagofont-Download_2:before {
+    content: "\e6cb";
+}
+.zagofont-Drawers_1:before {
+    content: "\e6cc";
+}
+.zagofont-Drawers_2:before {
+    content: "\e6cd";
+}
+.zagofont-Drawers_3:before {
+    content: "\e6ce";
+}
+.zagofont-Dribbble_Circle:before {
+    content: "\e6cf";
+}
+.zagofont-Dribbble_Square:before {
+    content: "\e6d0";
+}
+.zagofont-Dropbox_Circle:before {
+    content: "\e6d1";
+}
+.zagofont-Dropbox_Square:before {
+    content: "\e6d2";
+}
+.zagofont-Droplet:before {
+    content: "\e6d3";
+}
+.zagofont-Eject:before {
+    content: "\e6d4";
+}
+.zagofont-Envelope_x40_2xpng:before {
+    content: "\e6d5";
+}
+.zagofont-Envelopes_x40_2xpng:before {
+    content: "\e6d6";
+}
+.zagofont-Error_x40_2xpng:before {
+    content: "\e6d7";
+}
+.zagofont-Euro_Coin:before {
+    content: "\e6d8";
+}
+.zagofont-Euro_Coins:before {
+    content: "\e6d9";
+}
+.zagofont-Exit_1:before {
+    content: "\e6da";
+}
+.zagofont-Exit_2:before {
+    content: "\e6db";
+}
+.zagofont-Eye_x40_2xpng:before {
+    content: "\e6dc";
+}
+.zagofont-Facebook_Circle:before {
+    content: "\e6dd";
+}
+.zagofont-Facebook_Square_x40_2xpng:before {
+    content: "\e6de";
+}
+.zagofont-Fahrenheit:before {
+    content: "\e6df";
+}
+.zagofont-Fast_Forward:before {
+    content: "\e6e0";
+}
+.zagofont-File_Type_AI:before {
+    content: "\e6e1";
+}
+.zagofont-File_Type_GIF:before {
+    content: "\e6e2";
+}
+.zagofont-File_Type_JPG:before {
+    content: "\e6e3";
+}
+.zagofont-File_Type_PDF:before {
+    content: "\e6e4";
+}
+.zagofont-File_Type_PNG:before {
+    content: "\e6e5";
+}
+.zagofont-File_Type_PSD:before {
+    content: "\e6e6";
+}
+.zagofont-Filter_Add_x40_2xpng:before {
+    content: "\e6e7";
+}
+.zagofont-Filter_Remove_x40_2xpng:before {
+    content: "\e6e8";
+}
+.zagofont-Filter_x40_2xpng:before {
+    content: "\e6e9";
+}
+.zagofont-Finder:before {
+    content: "\e6ea";
+}
+.zagofont-Flag_1:before {
+    content: "\e6eb";
+}
+.zagofont-Flag_2:before {
+    content: "\e6ec";
+}
+.zagofont-Floppy_Disk_1:before {
+    content: "\e6ed";
+}
+.zagofont-Floppy_Disk_2:before {
+    content: "\e6ee";
+}
+.zagofont-Folder_More_x40_2xpng:before {
+    content: "\e6ef";
+}
+.zagofont-Folder_Search_x40_2xpng:before {
+    content: "\e6f0";
+}
+.zagofont-Folder_x40_2xpng:before {
+    content: "\e6f1";
+}
+.zagofont-Folders_x40_2xpng:before {
+    content: "\e6f2";
+}
+.zagofont-Forked_Path:before {
+    content: "\e6f3";
+}
+.zagofont-Full_Screen_Reverse:before {
+    content: "\e6f4";
+}
+.zagofont-Full_Screen:before {
+    content: "\e6f5";
+}
+.zagofont-Game_Controler:before {
+    content: "\e6f6";
+}
+.zagofont-Gift_x40_2xpng:before {
+    content: "\e6f7";
+}
+.zagofont-Global_Connection:before {
+    content: "\e6f8";
+}
+.zagofont-Globe_1:before {
+    content: "\e6f9";
+}
+.zagofont-Globe_2:before {
+    content: "\e6fa";
+}
+.zagofont-Globe_with_Arrows:before {
+    content: "\e6fb";
+}
+.zagofont-Globes:before {
+    content: "\e6fc";
+}
+.zagofont-Google_Plus_Circle:before {
+    content: "\e6fd";
+}
+.zagofont-Google_Plus_Square:before {
+    content: "\e6fe";
+}
+.zagofont-Graduation:before {
+    content: "\e6ff";
+}
+.zagofont-Grid_1:before {
+    content: "\e700";
+}
+.zagofont-Grid_2:before {
+    content: "\e701";
+}
+.zagofont-Grid_3:before {
+    content: "\e702";
+}
+.zagofont-Grid_4:before {
+    content: "\e703";
+}
+.zagofont-Grid_5:before {
+    content: "\e704";
+}
+.zagofont-Grid_6:before {
+    content: "\e705";
+}
+.zagofont-Grid_7:before {
+    content: "\e706";
+}
+.zagofont-Grid_8:before {
+    content: "\e707";
+}
+.zagofont-Grid_9:before {
+    content: "\e708";
+}
+.zagofont-Grid_10:before {
+    content: "\e709";
+}
+.zagofont-Grid_11:before {
+    content: "\e70a";
+}
+.zagofont-Grid_12:before {
+    content: "\e70b";
+}
+.zagofont-Handbag:before {
+    content: "\e70c";
+}
+.zagofont-Hard_Drive:before {
+    content: "\e70d";
+}
+.zagofont-Headphones_1:before {
+    content: "\e70e";
+}
+.zagofont-Headphones_2:before {
+    content: "\e70f";
+}
+.zagofont-Headphones_3:before {
+    content: "\e710";
+}
+.zagofont-Health_Circle:before {
+    content: "\e711";
+}
+.zagofont-Health_Square:before {
+    content: "\e712";
+}
+.zagofont-Heart_x40_2xpng:before {
+    content: "\e713";
+}
+.zagofont-Help_x40_2xpng:before {
+    content: "\e714";
+}
+.zagofont-Home_x40_2xpng:before {
+    content: "\e715";
+}
+.zagofont-Inbox_Download:before {
+    content: "\e716";
+}
+.zagofont-Inbox_Full:before {
+    content: "\e717";
+}
+.zagofont-Inbox_Upload:before {
+    content: "\e718";
+}
+.zagofont-Inbox:before {
+    content: "\e719";
+}
+.zagofont-Inboxes:before {
+    content: "\e71a";
+}
+.zagofont-Infinite:before {
+    content: "\e71b";
+}
+.zagofont-Info_x40_2xpng:before {
+    content: "\e71c";
+}
+.zagofont-Instagram_Circle:before {
+    content: "\e71d";
+}
+.zagofont-Instagram_Square:before {
+    content: "\e71e";
+}
+.zagofont-Key_1_x40_2xpng:before {
+    content: "\e71f";
+}
+.zagofont-Key_2_x40_2xpng:before {
+    content: "\e720";
+}
+.zagofont-Keyboard_Down:before {
+    content: "\e721";
+}
+.zagofont-Keyboard_Up:before {
+    content: "\e722";
+}
+.zagofont-Keyboard:before {
+    content: "\e723";
+}
+.zagofont-Laptop:before {
+    content: "\e724";
+}
+.zagofont-Left_Arrow_1:before {
+    content: "\e725";
+}
+.zagofont-Left_Arrow_2:before {
+    content: "\e726";
+}
+.zagofont-Left_Arrow_3:before {
+    content: "\e727";
+}
+.zagofont-Left_Arrow_4:before {
+    content: "\e728";
+}
+.zagofont-Left_Arrow_5:before {
+    content: "\e729";
+}
+.zagofont-Left_Arrow_6:before {
+    content: "\e72a";
+}
+.zagofont-Life_Preserver_x40_2xpng:before {
+    content: "\e72b";
+}
+.zagofont-Lightning_Bolt_x40_2xpng:before {
+    content: "\e72c";
+}
+.zagofont-LinkedIn_Circle:before {
+    content: "\e72d";
+}
+.zagofont-LinkedIn_Square:before {
+    content: "\e72e";
+}
+.zagofont-List_1_x40_2xpng:before {
+    content: "\e72f";
+}
+.zagofont-List_2_x40_2xpng:before {
+    content: "\e730";
+}
+.zagofont-List_3_x40_2xpng:before {
+    content: "\e731";
+}
+.zagofont-Location_Pin_1:before {
+    content: "\e732";
+}
+.zagofont-Location_Pin_2:before {
+    content: "\e733";
+}
+.zagofont-Location_Pin_3:before {
+    content: "\e734";
+}
+.zagofont-Location_Target:before {
+    content: "\e735";
+}
+.zagofont-Lock_x40_2xpng:before {
+    content: "\e736";
+}
+.zagofont-Magnify_Glass_x40_2xpng:before {
+    content: "\e737";
+}
+.zagofont-Mail:before {
+    content: "\e738";
+}
+.zagofont-Mails:before {
+    content: "\e739";
+}
+.zagofont-Map_1:before {
+    content: "\e73a";
+}
+.zagofont-Map_2:before {
+    content: "\e73b";
+}
+.zagofont-Medicine_Bottle:before {
+    content: "\e73c";
+}
+.zagofont-Megaphone_1:before {
+    content: "\e73d";
+}
+.zagofont-Megaphone_2:before {
+    content: "\e73e";
+}
+.zagofont-Megaphone_3:before {
+    content: "\e73f";
+}
+.zagofont-Microphone_2:before {
+    content: "\e740";
+}
+.zagofont-Microphone:before {
+    content: "\e741";
+}
+.zagofont-Mobile:before {
+    content: "\e742";
+}
+.zagofont-Moon_Cycle_1:before {
+    content: "\e743";
+}
+.zagofont-Moon_Cycle_2:before {
+    content: "\e744";
+}
+.zagofont-Moon_Cycle_3:before {
+    content: "\e745";
+}
+.zagofont-Moon_Cycle_4:before {
+    content: "\e746";
+}
+.zagofont-Moon_Cycle_5:before {
+    content: "\e747";
+}
+.zagofont-Moon_Cycle_6:before {
+    content: "\e748";
+}
+.zagofont-Moon_Cycle_7:before {
+    content: "\e749";
+}
+.zagofont-Moon_Cycle_8:before {
+    content: "\e74a";
+}
+.zagofont-Moon_with_Craters:before {
+    content: "\e74b";
+}
+.zagofont-Moon:before {
+    content: "\e74c";
+}
+.zagofont-More_1_x40_2xpng:before {
+    content: "\e74d";
+}
+.zagofont-More_2_x40_2xpng:before {
+    content: "\e74e";
+}
+.zagofont-Mouse:before {
+    content: "\e74f";
+}
+.zagofont-Move:before {
+    content: "\e750";
+}
+.zagofont-Music_Note_1_x40_2xpng:before {
+    content: "\e751";
+}
+.zagofont-Music_Note_2_x40_2xpng:before {
+    content: "\e752";
+}
+.zagofont-Music_Note_in_a_Circle:before {
+    content: "\e753";
+}
+.zagofont-Music_Note_in_a_Square_1:before {
+    content: "\e754";
+}
+.zagofont-Music_Note_in_a_Square_2:before {
+    content: "\e755";
+}
+.zagofont-Music_Note_in_a_Square_3:before {
+    content: "\e756";
+}
+.zagofont-Neck_Tie:before {
+    content: "\e757";
+}
+.zagofont-Newspaper_x40_2xpng:before {
+    content: "\e758";
+}
+.zagofont-Newspapers_x40_2xpng:before {
+    content: "\e759";
+}
+.zagofont-Next:before {
+    content: "\e75a";
+}
+.zagofont-No_Entry_x40_2xpng:before {
+    content: "\e75b";
+}
+.zagofont-Note_x40_2xpng:before {
+    content: "\e75c";
+}
+.zagofont-Notepad_x40_2xpng:before {
+    content: "\e75d";
+}
+.zagofont-Old_Building_x40_2xpng:before {
+    content: "\e75e";
+}
+.zagofont-Old_TV:before {
+    content: "\e75f";
+}
+.zagofont-Orbit:before {
+    content: "\e760";
+}
+.zagofont-OS_Windows:before {
+    content: "\e761";
+}
+.zagofont-OS_X:before {
+    content: "\e762";
+}
+.zagofont-Page_1_x40_2xpng:before {
+    content: "\e763";
+}
+.zagofont-Page_2_x40_2xpng:before {
+    content: "\e764";
+}
+.zagofont-Pages_1_x40_2xpng:before {
+    content: "\e765";
+}
+.zagofont-Pages_2_x40_2xpng:before {
+    content: "\e766";
+}
+.zagofont-Paper_Airplane_x40_2xpng:before {
+    content: "\e767";
+}
+.zagofont-Paper_Bitcoin_1:before {
+    content: "\e768";
+}
+.zagofont-Paper_Bitcoin_2:before {
+    content: "\e769";
+}
+.zagofont-Paper_Bitcoin:before {
+    content: "\e76a";
+}
+.zagofont-Paper_Clip:before {
+    content: "\e76b";
+}
+.zagofont-Paper_Dollar:before {
+    content: "\e76c";
+}
+.zagofont-Paper_Dollars_1:before {
+    content: "\e76d";
+}
+.zagofont-Paper_Dollars_2:before {
+    content: "\e76e";
+}
+.zagofont-Paper_Euro:before {
+    content: "\e76f";
+}
+.zagofont-Paper_Euros_1:before {
+    content: "\e770";
+}
+.zagofont-Paper_Euros_2:before {
+    content: "\e771";
+}
+.zagofont-Paper_Shredder:before {
+    content: "\e772";
+}
+.zagofont-Pause:before {
+    content: "\e773";
+}
+.zagofont-Pencil_x40_2xpng:before {
+    content: "\e774";
+}
+.zagofont-Phone_1_x40_2xpng:before {
+    content: "\e775";
+}
+.zagofont-Phone_2_x40_2xpng:before {
+    content: "\e776";
+}
+.zagofont-Photo_List_x40_2xpng:before {
+    content: "\e777";
+}
+.zagofont-Photo_x40_2xpng:before {
+    content: "\e778";
+}
+.zagofont-Photos_2_x40_2xpng:before {
+    content: "\e779";
+}
+.zagofont-Photos_3_x40_2xpng:before {
+    content: "\e77a";
+}
+.zagofont-Photos_x40_2xpng:before {
+    content: "\e77b";
+}
+.zagofont-Pie_Chart_x40_2xpng:before {
+    content: "\e77c";
+}
+.zagofont-Pill:before {
+    content: "\e77d";
+}
+.zagofont-Pinterest_Circle:before {
+    content: "\e77e";
+}
+.zagofont-Pinterest_Square:before {
+    content: "\e77f";
+}
+.zagofont-Play:before {
+    content: "\e780";
+}
+.zagofont-Podcasts_1:before {
+    content: "\e781";
+}
+.zagofont-Podcasts_2:before {
+    content: "\e782";
+}
+.zagofont-Popout:before {
+    content: "\e783";
+}
+.zagofont-Posicle:before {
+    content: "\e784";
+}
+.zagofont-Power:before {
+    content: "\e785";
+}
+.zagofont-Presentation_1:before {
+    content: "\e786";
+}
+.zagofont-Presentation_2:before {
+    content: "\e787";
+}
+.zagofont-Presentation_3:before {
+    content: "\e788";
+}
+.zagofont-Presentation_4:before {
+    content: "\e789";
+}
+.zagofont-Presentation_5:before {
+    content: "\e78a";
+}
+.zagofont-Printer:before {
+    content: "\e78b";
+}
+.zagofont-Radar:before {
+    content: "\e78c";
+}
+.zagofont-Radio:before {
+    content: "\e78d";
+}
+.zagofont-Rainbow:before {
+    content: "\e78e";
+}
+.zagofont-Receipt:before {
+    content: "\e78f";
+}
+.zagofont-Receipts:before {
+    content: "\e790";
+}
+.zagofont-Record_Player:before {
+    content: "\e791";
+}
+.zagofont-Record:before {
+    content: "\e792";
+}
+.zagofont-Refresh_1:before {
+    content: "\e793";
+}
+.zagofont-Refresh_2:before {
+    content: "\e794";
+}
+.zagofont-Refresh_3:before {
+    content: "\e795";
+}
+.zagofont-Refresh_4:before {
+    content: "\e796";
+}
+.zagofont-Remove_x40_2xpng:before {
+    content: "\e797";
+}
+.zagofont-Right_Angle_Arrow_1:before {
+    content: "\e798";
+}
+.zagofont-Right_Angle_Arrow_2:before {
+    content: "\e799";
+}
+.zagofont-Right_Arrow_1:before {
+    content: "\e79a";
+}
+.zagofont-Right_Arrow_2:before {
+    content: "\e79b";
+}
+.zagofont-Right_Arrow_3:before {
+    content: "\e79c";
+}
+.zagofont-Right_Arrow_4:before {
+    content: "\e79d";
+}
+.zagofont-Right_Arrow_5:before {
+    content: "\e79e";
+}
+.zagofont-Right_Arrow_6:before {
+    content: "\e79f";
+}
+.zagofont-Road_Signs:before {
+    content: "\e7a0";
+}
+.zagofont-Rocket:before {
+    content: "\e7a1";
+}
+.zagofont-Router:before {
+    content: "\e7a2";
+}
+.zagofont-RSS_1:before {
+    content: "\e7a3";
+}
+.zagofont-RSS_2:before {
+    content: "\e7a4";
+}
+.zagofont-Safe:before {
+    content: "\e7a5";
+}
+.zagofont-Scissors:before {
+    content: "\e7a6";
+}
+.zagofont-Server_Connections_x40:before {
+    content: "\e7a7";
+}
+.zagofont-Servers:before {
+    content: "\e7a8";
+}
+.zagofont-Settings_1_x40_2xpng:before {
+    content: "\e7a9";
+}
+.zagofont-Settings_2_x40_2xpng:before {
+    content: "\e7aa";
+}
+.zagofont-Settings_3_x40_2xpng:before {
+    content: "\e7ab";
+}
+.zagofont-Share_2:before {
+    content: "\e7ac";
+}
+.zagofont-Share_3:before {
+    content: "\e7ad";
+}
+.zagofont-Share:before {
+    content: "\e7ae";
+}
+.zagofont-Sheild_x40_2xpng:before {
+    content: "\e7af";
+}
+.zagofont-Shopping_Bag:before {
+    content: "\e7b0";
+}
+.zagofont-Shopping_Bags:before {
+    content: "\e7b1";
+}
+.zagofont-Shopping_Basket_In:before {
+    content: "\e7b2";
+}
+.zagofont-Shopping_Basket_Left:before {
+    content: "\e7b3";
+}
+.zagofont-Shopping_Basket_Minus:before {
+    content: "\e7b4";
+}
+.zagofont-Shopping_Basket_Out:before {
+    content: "\e7b5";
+}
+.zagofont-Shopping_Basket_Plus:before {
+    content: "\e7b6";
+}
+.zagofont-Shopping_Basket_Right:before {
+    content: "\e7b7";
+}
+.zagofont-Shopping_Basket:before {
+    content: "\e7b8";
+}
+.zagofont-Shopping_Cart_In:before {
+    content: "\e7b9";
+}
+.zagofont-Shopping_Cart_Left:before {
+    content: "\e7ba";
+}
+.zagofont-Shopping_Cart_Minus:before {
+    content: "\e7bb";
+}
+.zagofont-Shopping_Cart_Out:before {
+    content: "\e7bc";
+}
+.zagofont-Shopping_Cart_Plus:before {
+    content: "\e7bd";
+}
+.zagofont-Shopping_Cart_Right:before {
+    content: "\e7be";
+}
+.zagofont-Shopping_Cart:before {
+    content: "\e7bf";
+}
+.zagofont-Shuffle:before {
+    content: "\e7c0";
+}
+.zagofont-Sign_Post:before {
+    content: "\e7c1";
+}
+.zagofont-Square_Outline_Down:before {
+    content: "\e7c2";
+}
+.zagofont-Square_Outline_Up:before {
+    content: "\e7c3";
+}
+.zagofont-Square_Outline_with_Cube:before {
+    content: "\e7c4";
+}
+.zagofont-Square_Outline:before {
+    content: "\e7c5";
+}
+.zagofont-Stack_1:before {
+    content: "\e7c6";
+}
+.zagofont-Stack_2:before {
+    content: "\e7c7";
+}
+.zagofont-Star_in_Circle_x40_2xpng:before {
+    content: "\e7c8";
+}
+.zagofont-Star_x40_2xpng:before {
+    content: "\e7c9";
+}
+.zagofont-Stars_x40_2xpng:before {
+    content: "\e7ca";
+}
+.zagofont-Stop:before {
+    content: "\e7cb";
+}
+.zagofont-Storefront_x40_2xpng:before {
+    content: "\e7cc";
+}
+.zagofont-Suitcase_x40_2xpng:before {
+    content: "\e7cd";
+}
+.zagofont-Suitcases_x40_2xpng:before {
+    content: "\e7ce";
+}
+.zagofont-Sun:before {
+    content: "\e7cf";
+}
+.zagofont-Sunrise:before {
+    content: "\e7d0";
+}
+.zagofont-Sunset:before {
+    content: "\e7d1";
+}
+.zagofont-Tablet:before {
+    content: "\e7d2";
+}
+.zagofont-Tag_x40_2xpng:before {
+    content: "\e7d3";
+}
+.zagofont-Tags_x40_2xpng:before {
+    content: "\e7d4";
+}
+.zagofont-Target:before {
+    content: "\e7d5";
+}
+.zagofont-Tea_Cup:before {
+    content: "\e7d6";
+}
+.zagofont-Test_Tube:before {
+    content: "\e7d7";
+}
+.zagofont-Text_Align_Center:before {
+    content: "\e7d8";
+}
+.zagofont-Text_Align_Justify:before {
+    content: "\e7d9";
+}
+.zagofont-Text_Align_Left:before {
+    content: "\e7da";
+}
+.zagofont-Text_Align_Right:before {
+    content: "\e7db";
+}
+.zagofont-Thermometer:before {
+    content: "\e7dc";
+}
+.zagofont-Toggles_1_x40_2xpng:before {
+    content: "\e7dd";
+}
+.zagofont-Toggles_2_x40_2xpng:before {
+    content: "\e7de";
+}
+.zagofont-Toggles_3_x40_2xpng:before {
+    content: "\e7df";
+}
+.zagofont-Top_Charts_x40_2xpng:before {
+    content: "\e7e0";
+}
+.zagofont-Top_Hat_with_Cane:before {
+    content: "\e7e1";
+}
+.zagofont-Trash_Full_x40_2xpng:before {
+    content: "\e7e2";
+}
+.zagofont-Trash_x40_2xpng:before {
+    content: "\e7e3";
+}
+.zagofont-Tree:before {
+    content: "\e7e4";
+}
+.zagofont-Tumblr_Circle:before {
+    content: "\e7e5";
+}
+.zagofont-Tumblr_Square:before {
+    content: "\e7e6";
+}
+.zagofont-Turn_Ahead:before {
+    content: "\e7e7";
+}
+.zagofont-TV_Fuzz:before {
+    content: "\e7e8";
+}
+.zagofont-TV:before {
+    content: "\e7e9";
+}
+.zagofont-Twitter_Circle:before {
+    content: "\e7ea";
+}
+.zagofont-Twitter_Square:before {
+    content: "\e7eb";
+}
+.zagofont-Umbrella:before {
+    content: "\e7ec";
+}
+.zagofont-Unlock_x40_2xpng:before {
+    content: "\e7ed";
+}
+.zagofont-Up_Arrow_1:before {
+    content: "\e7ee";
+}
+.zagofont-Up_Arrow_2:before {
+    content: "\e7ef";
+}
+.zagofont-Up_Arrow_3:before {
+    content: "\e7f0";
+}
+.zagofont-Up_Arrow_4:before {
+    content: "\e7f1";
+}
+.zagofont-Up_Arrow_5:before {
+    content: "\e7f2";
+}
+.zagofont-Up_Arrow_6:before {
+    content: "\e7f3";
+}
+.zagofont-User_Female_x40_2xpng:before {
+    content: "\e7f4";
+}
+.zagofont-User_Male_x40_2xpng:before {
+    content: "\e7f5";
+}
+.zagofont-Users_1_x40_2xpng:before {
+    content: "\e7f6";
+}
+.zagofont-Users_2_x40_2xpng:before {
+    content: "\e7f7";
+}
+.zagofont-Video_1_x40_2xpng:before {
+    content: "\e7f8";
+}
+.zagofont-Video_2_x40_2xpng:before {
+    content: "\e7f9";
+}
+.zagofont-Video_Camera_1:before {
+    content: "\e7fa";
+}
+.zagofont-Video_Camera_2:before {
+    content: "\e7fb";
+}
+.zagofont-Video_Camera_3:before {
+    content: "\e7fc";
+}
+.zagofont-Video_Camera_4:before {
+    content: "\e7fd";
+}
+.zagofont-Videos_x40_2xpng:before {
+    content: "\e7fe";
+}
+.zagofont-Vimeo_Circle:before {
+    content: "\e7ff";
+}
+.zagofont-Vimeo_Square:before {
+    content: "\e800";
+}
+.zagofont-Wallet_1:before {
+    content: "\e801";
+}
+.zagofont-Wallet_2:before {
+    content: "\e802";
+}
+.zagofont-Wallet_3:before {
+    content: "\e803";
+}
+.zagofont-Warning_x40_2xpng:before {
+    content: "\e804";
+}
+.zagofont-WiFi_Logo:before {
+    content: "\e805";
+}
+.zagofont-Wind:before {
+    content: "\e806";
+}
+.zagofont-Wine_Glass:before {
+    content: "\e807";
+}
+.zagofont-WordPress_Circle:before {
+    content: "\e808";
+}
+.zagofont-WordPress_Square:before {
+    content: "\e809";
+}
+.zagofont-Wrench_x40_2xpng:before {
+    content: "\e80a";
+}
+.zagofont-Write_x40_2xpng:before {
+    content: "\e80b";
+}
+.zagofont-X_x40_2xpng:before {
+    content: "\e80c";
+}
+.zagofont-Yahoo_Circle:before {
+    content: "\e80d";
+}
+.zagofont-Yahoo_Square:before {
+    content: "\e80e";
+}
+.zagofont-YouTube_Circle:before {
+    content: "\e80f";
+}
+.zagofont-YouTube_Square:before {
+    content: "\e810";
+}
+.zagofont-Zoom_In_x40_2xpng:before {
+    content: "\e811";
+}
+.zagofont-Zoom_Out_x40_2xpng:before {
+    content: "\e812";
+}
+.zagofont-Add_x40_2xpng2:before {
+    content: "\e813";
+}
+.zagofont-airconditioning:before {
+    content: "\e600";
+}
+.zagofont-anchor:before {
+    content: "\e601";
+}
+.zagofont-apartment:before {
+    content: "\e602";
+}
+.zagofont-beach_1:before {
+    content: "\e603";
+}
+.zagofont-beach:before {
+    content: "\e604";
+}
+.zagofont-bed:before {
+    content: "\e605";
+}
+.zagofont-contract:before {
+    content: "\e606";
+}
+.zagofont-disabled:before {
+    content: "\e607";
+}
+.zagofont-Dishwasher:before {
+    content: "\e608";
+}
+.zagofont-divemasks:before {
+    content: "\e609";
+}
+.zagofont-door_1:before {
+    content: "\e60a";
+}
+.zagofont-door:before {
+    content: "\e60b";
+}
+.zagofont-drink:before {
+    content: "\e60c";
+}
+.zagofont-earth_1:before {
+    content: "\e60d";
+}
+.zagofont-earth:before {
+    content: "\e60e";
+}
+.zagofont-elevator:before {
+    content: "\e60f";
+}
+.zagofont-fence:before {
+    content: "\e610";
+}
+.zagofont-flags:before {
+    content: "\e611";
+}
+.zagofont-gym:before {
+    content: "\e612";
+}
+.zagofont-hairdryer:before {
+    content: "\e613";
+}
+.zagofont-hand:before {
+    content: "\e614";
+}
+.zagofont-hanger_1:before {
+    content: "\e615";
+}
+.zagofont-hanger:before {
+    content: "\e616";
+}
+.zagofont-heart:before {
+    content: "\e617";
+}
+.zagofont-hoover:before {
+    content: "\e618";
+}
+.zagofont-hotel_1:before {
+    content: "\e619";
+}
+.zagofont-hotel_2:before {
+    content: "\e61a";
+}
+.zagofont-hotel_3:before {
+    content: "\e61b";
+}
+.zagofont-hotel:before {
+    content: "\e61c";
+}
+.zagofont-house_1:before {
+    content: "\e61d";
+}
+.zagofont-house_2:before {
+    content: "\e61e";
+}
+.zagofont-house_3:before {
+    content: "\e61f";
+}
+.zagofont-house_4:before {
+    content: "\e620";
+}
+.zagofont-house_5:before {
+    content: "\e621";
+}
+.zagofont-house_6:before {
+    content: "\e622";
+}
+.zagofont-house_7:before {
+    content: "\e623";
+}
+.zagofont-house_8:before {
+    content: "\e624";
+}
+.zagofont-house_9:before {
+    content: "\e625";
+}
+.zagofont-house_10:before {
+    content: "\e626";
+}
+.zagofont-house_11:before {
+    content: "\e627";
+}
+.zagofont-house_12:before {
+    content: "\e628";
+}
+.zagofont-house_13 .path1:before {
+    content: "\e814";
+    color: rgb(11, 128, 224);
+}
+.zagofont-house_13 .path2:before {
+    content: "\e815";
+    margin-left: -1em;
+    color: rgb(11, 128, 224);
+}
+.zagofont-house_13 .path3:before {
+    content: "\e816";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.zagofont-house_13 .path4:before {
+    content: "\e817";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.zagofont-house_14:before {
+    content: "\e629";
+}
+.zagofont-house_15:before {
+    content: "\e62a";
+}
+.zagofont-house:before {
+    content: "\e62b";
+}
+.zagofont-icecream:before {
+    content: "\e62c";
+}
+.zagofont-key_1:before {
+    content: "\e62d";
+}
+.zagofont-key:before {
+    content: "\e62e";
+}
+.zagofont-ladder_1:before {
+    content: "\e62f";
+}
+.zagofont-ladder:before {
+    content: "\e630";
+}
+.zagofont-luggage:before {
+    content: "\e631";
+}
+.zagofont-man:before {
+    content: "\e632";
+}
+.zagofont-microwave:before {
+    content: "\e633";
+}
+.zagofont-mountains:before {
+    content: "\e634";
+}
+.zagofont-padlock:before {
+    content: "\e635";
+}
+.zagofont-palms:before {
+    content: "\e636";
+}
+.zagofont-parasol:before {
+    content: "\e637";
+}
+.zagofont-parking:before {
+    content: "\e638";
+}
+.zagofont-pets:before {
+    content: "\e639";
+}
+.zagofont-plane_1:before {
+    content: "\e63a";
+}
+.zagofont-plane:before {
+    content: "\e63b";
+}
+.zagofont-radiator:before {
+    content: "\e63c";
+}
+.zagofont-refrigerator:before {
+    content: "\e63d";
+}
+.zagofont-rudder:before {
+    content: "\e63e";
+}
+.zagofont-sailfish:before {
+    content: "\e63f";
+}
+.zagofont-sea:before {
+    content: "\e640";
+}
+.zagofont-seaview:before {
+    content: "\e641";
+}
+.zagofont-shower:before {
+    content: "\e642";
+}
+.zagofont-slippers:before {
+    content: "\e643";
+}
+.zagofont-smoking_1:before {
+    content: "\e644";
+}
+.zagofont-smoking:before {
+    content: "\e645";
+}
+.zagofont-sold:before {
+    content: "\e646";
+}
+.zagofont-starfish:before {
+    content: "\e647";
+}
+.zagofont-suitcase_1:before {
+    content: "\e648";
+}
+.zagofont-suitcase:before {
+    content: "\e649";
+}
+.zagofont-sunglasses:before {
+    content: "\e64a";
+}
+.zagofont-tv:before {
+    content: "\e64b";
+}
+.zagofont-utensils:before {
+    content: "\e64c";
+}
+.zagofont-villa:before {
+    content: "\e64d";
+}
+.zagofont-virt_tour:before {
+    content: "\e64e";
+}
+.zagofont-Washer:before {
+    content: "\e64f";
+}
+.zagofont-wave:before {
+    content: "\e650";
+}
+.zagofont-image:before {
+    content: "\e90d";
+}
+.zagofont-images:before {
+    content: "\e90e";
+}
+.zagofont-connection:before {
+    content: "\e91b";
+}
+.zagofont-file-text:before {
+    content: "\e922";
+}
+.zagofont-profile:before {
+    content: "\e923";
+}
+.zagofont-file-empty2:before {
+    content: "\e924";
+}
+.zagofont-files-empty:before {
+    content: "\e925";
+}
+.zagofont-file-text2:before {
+    content: "\e926";
+}
+.zagofont-file-picture:before {
+    content: "\e927";
+}
+.zagofont-file-music:before {
+    content: "\e928";
+}
+.zagofont-file-play:before {
+    content: "\e929";
+}
+.zagofont-file-video:before {
+    content: "\e92a";
+}
+.zagofont-file-zip:before {
+    content: "\e92b";
+}
+.zagofont-copy:before {
+    content: "\e92c";
+}
+.zagofont-paste:before {
+    content: "\e92d";
+}
+.zagofont-stack:before {
+    content: "\e92e";
+}
+.zagofont-folder:before {
+    content: "\e92f";
+}
+.zagofont-folder-open:before {
+    content: "\e930";
+}
+.zagofont-folder-plus:before {
+    content: "\e931";
+}
+.zagofont-folder-minus:before {
+    content: "\e932";
+}
+.zagofont-folder-download:before {
+    content: "\e933";
+}
+.zagofont-folder-upload:before {
+    content: "\e934";
+}
+.zagofont-price-tag:before {
+    content: "\e935";
+}
+.zagofont-price-tags:before {
+    content: "\e936";
+}
+.zagofont-barcode:before {
+    content: "\e937";
+}
+.zagofont-qrcode:before {
+    content: "\e938";
+}
+.zagofont-coin-dollar:before {
+    content: "\e93b";
+}
+.zagofont-coin-euro:before {
+    content: "\e93c";
+}
+.zagofont-coin-pound:before {
+    content: "\e93d";
+}
+.zagofont-coin-yen:before {
+    content: "\e93e";
+}
+.zagofont-credit-card:before {
+    content: "\e93f";
+}
+.zagofont-address-book:before {
+    content: "\e944";
+}
+.zagofont-location4:before {
+    content: "\e947";
+}
+.zagofont-location22:before {
+    content: "\e948";
+}
+.zagofont-compass:before {
+    content: "\e949";
+}
+.zagofont-compass2:before {
+    content: "\e94a";
+}
+.zagofont-map3:before {
+    content: "\e94b";
+}
+.zagofont-map2:before {
+    content: "\e94c";
+}
+.zagofont-history2:before {
+    content: "\e94d";
+}
+.zagofont-clock4:before {
+    content: "\e94e";
+}
+.zagofont-stopwatch:before {
+    content: "\e952";
+}
+.zagofont-calendar3:before {
+    content: "\e953";
+}
+.zagofont-mobile:before {
+    content: "\e958";
+}
+.zagofont-mobile2:before {
+    content: "\e959";
+}
+.zagofont-tablet2:before {
+    content: "\e95a";
+}
+.zagofont-drawer:before {
+    content: "\e95c";
+}
+.zagofont-drawer2:before {
+    content: "\e95d";
+}
+.zagofont-box-add:before {
+    content: "\e95e";
+}
+.zagofont-undo2:before {
+    content: "\e965";
+}
+.zagofont-redo2:before {
+    content: "\e966";
+}
+.zagofont-bubble3:before {
+    content: "\e96b";
+}
+.zagofont-bubbles:before {
+    content: "\e96c";
+}
+.zagofont-bubbles2:before {
+    content: "\e96d";
+}
+.zagofont-bubble2:before {
+    content: "\e96e";
+}
+.zagofont-bubbles3:before {
+    content: "\e96f";
+}
+.zagofont-bubbles4:before {
+    content: "\e970";
+}
+.zagofont-user2:before {
+    content: "\e971";
+}
+.zagofont-users2:before {
+    content: "\e972";
+}
+.zagofont-user-plus:before {
+    content: "\e973";
+}
+.zagofont-user-minus:before {
+    content: "\e974";
+}
+.zagofont-user-check:before {
+    content: "\e975";
+}
+.zagofont-user-tie:before {
+    content: "\e976";
+}
+.zagofont-spinner:before {
+    content: "\e97a";
+}
+.zagofont-spinner5:before {
+    content: "\e97e";
+}
+.zagofont-spinner6:before {
+    content: "\e97f";
+}
+.zagofont-spinner7:before {
+    content: "\e980";
+}
+.zagofont-enlarge:before {
+    content: "\e989";
+}
+.zagofont-shrink:before {
+    content: "\e98a";
+}
+.zagofont-enlarge2:before {
+    content: "\e98b";
+}
+.zagofont-shrink2:before {
+    content: "\e98c";
+}
+.zagofont-lock2:before {
+    content: "\e98f";
+}
+.zagofont-unlocked:before {
+    content: "\e990";
+}
+.zagofont-equalizer:before {
+    content: "\e992";
+}
+.zagofont-equalizer2:before {
+    content: "\e993";
+}
+.zagofont-cog2:before {
+    content: "\e994";
+}
+.zagofont-cogs:before {
+    content: "\e995";
+}
+.zagofont-stats-dots:before {
+    content: "\e99b";
+}
+.zagofont-stats-bars:before {
+    content: "\e99c";
+}
+.zagofont-stats-bars2:before {
+    content: "\e99d";
+}
+.zagofont-bin:before {
+    content: "\e9ac";
+}
+.zagofont-bin2:before {
+    content: "\e9ad";
+}
+.zagofont-briefcase2:before {
+    content: "\e9ae";
+}
+.zagofont-clipboard:before {
+    content: "\e9b8";
+}
+.zagofont-list-numbered:before {
+    content: "\e9b9";
+}
+.zagofont-list3:before {
+    content: "\e9ba";
+}
+.zagofont-list2:before {
+    content: "\e9bb";
+}
+.zagofont-tree:before {
+    content: "\e9bc";
+}
+.zagofont-menu5:before {
+    content: "\e9bd";
+}
+.zagofont-menu2:before {
+    content: "\e9be";
+}
+.zagofont-menu3:before {
+    content: "\e9bf";
+}
+.zagofont-menu4:before {
+    content: "\e9c0";
+}
+.zagofont-earth3:before {
+    content: "\e9ca";
+}
+.zagofont-link2:before {
+    content: "\e9cb";
+}
+.zagofont-flag2:before {
+    content: "\e9cc";
+}
+.zagofont-attachment:before {
+    content: "\e9cd";
+}
+.zagofont-eye3:before {
+    content: "\e9ce";
+}
+.zagofont-eye-plus:before {
+    content: "\e9cf";
+}
+.zagofont-eye-minus:before {
+    content: "\e9d0";
+}
+.zagofont-eye-blocked:before {
+    content: "\e9d1";
+}
+.zagofont-star-empty2:before {
+    content: "\e9d7";
+}
+.zagofont-star-full:before {
+    content: "\e9d9";
+}
+.zagofont-heart3:before {
+    content: "\e9da";
+}
+.zagofont-man2:before {
+    content: "\e9dc";
+}
+.zagofont-woman:before {
+    content: "\e9dd";
+}
+.zagofont-man-woman:before {
+    content: "\e9de";
+}
+.zagofont-warning2:before {
+    content: "\ea07";
+}
+.zagofont-notification:before {
+    content: "\ea08";
+}
+.zagofont-plus:before {
+    content: "\ea0a";
+}
+.zagofont-minus:before {
+    content: "\ea0b";
+}
+.zagofont-cross3:before {
+    content: "\ea0f";
+}
+.zagofont-checkmark:before {
+    content: "\ea10";
+}
+.zagofont-checkmark2:before {
+    content: "\ea11";
+}
+.zagofont-shuffle:before {
+    content: "\ea30";
+}
+.zagofont-circle-up:before {
+    content: "\ea41";
+}
+.zagofont-circle-right:before {
+    content: "\ea42";
+}
+.zagofont-circle-down:before {
+    content: "\ea43";
+}
+.zagofont-move-up:before {
+    content: "\ea46";
+}
+.zagofont-move-down:before {
+    content: "\ea47";
+}
+.zagofont-sort-alpha-asc2:before {
+    content: "\ea48";
+}
+.zagofont-sort-alpha-desc:before {
+    content: "\ea49";
+}
+.zagofont-sort-amount-asc2:before {
+    content: "\ea4c";
+}
+.zagofont-sort-amount-desc:before {
+    content: "\ea4d";
+}
+.zagofont-checkbox-checked:before {
+    content: "\ea52";
+}
+.zagofont-checkbox-unchecked:before {
+    content: "\ea53";
+}
+.zagofont-radio-checked:before {
+    content: "\ea54";
+}
+.zagofont-radio-checked2:before {
+    content: "\ea55";
+}
+.zagofont-file-pdf:before {
+    content: "\eada";
+}
+.zagofont-file-openoffice:before {
+    content: "\eadb";
+}
+.zagofont-file-word:before {
+    content: "\eadc";
+}
+.zagofont-file-excel:before {
+    content: "\eadd";
+}
+.zagofont-libreoffice:before {
+    content: "\eade";
+}
+.zagofont-cloud2:before {
+    content: "\e9c4";
+}
+.zagofont-star2:before {
+    content: "\e8c8";
+}
+.zagofont-video:before {
+    content: "\e8c9";
+}
+.zagofont-trash2:before {
+    content: "\e8ca";
+}
+.zagofont-key2:before {
+    content: "\e8cb";
+}
+.zagofont-settings:before {
+    content: "\e8cc";
+}
+.zagofont-camera2:before {
+    content: "\e8cd";
+}
+.zagofont-tag2:before {
+    content: "\e8ce";
+}
+.zagofont-location2:before {
+    content: "\e8cf";
+}
+.zagofont-eye2:before {
+    content: "\e8d0";
+}
+.zagofont-phone2:before {
+    content: "\e9c5";
+}
+.zagofont-news:before {
+    content: "\e9c6";
+}
+.zagofont-mail:before {
+    content: "\e8d1";
+}
+.zagofont-photo:before {
+    content: "\e9c7";
+}
+.zagofont-note2:before {
+    content: "\e9c8";
+}
+.zagofont-params:before {
+    content: "\e8d2";
+}
+.zagofont-data:before {
+    content: "\e9c9";
+}
+.zagofont-clip:before {
+    content: "\e8d3";
+}
+.zagofont-shop:before {
+    content: "\e8d4";
+}
+.zagofont-calendar:before {
+    content: "\e8d5";
+}
+.zagofont-truck:before {
+    content: "\e8d6";
+}
+
