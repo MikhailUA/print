@@ -175,6 +175,13 @@ $footer_message = $rd_data['rd_footer_message'];
 
 
 <script>
+
+
+
+
+
+
+
     // Image gallery
     var defaultImgSrc = $('#product-gallery a').attr('name');
     $("#product-gallery > .main-image img").attr('src', defaultImgSrc).addClass("pic1");
@@ -209,6 +216,20 @@ $footer_message = $rd_data['rd_footer_message'];
     });
 
 
+    // On Click - open gallery
+    $("#product-gallery > div").click(function(e) {
+        e.preventDefault;
+        var equalImg = $(this).children("img").attr("class");
+        $(".fancybox-gallery." + equalImg).trigger("click");
+    });
+
+
+    $( function() {
+        $( ".product-tabs" ).tabs();
+    } );
+
+
+</script>
 
 
 </script>

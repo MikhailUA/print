@@ -58,13 +58,11 @@
     </div>
 
 
-
-
     <div class="right">
         <div class="product-tabs tab-container">
             <ul>
-                <li class="tab"><a href="#information" class="active">Informatie</a></li>
-                <li class="tab"><a href="#specification" class="">Aanleverspecificaties</a></li>
+                <li class="tab"><a href="#information" class="">Informatie</a></li>
+                <li class="tab"><a href="#specification" class="active">Aanleverspecificaties</a></li>
                 <li class="tab"><a href="#templates">Werktekeningen</a></li>
                 <li class="tab"><a href="#help">Veelgestelde vragen</a></li>
             </ul>
